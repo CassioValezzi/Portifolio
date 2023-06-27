@@ -1,0 +1,25 @@
+:root {
+    /* color */
+    --color-1: #000;
+    --color-2: #22333B;
+    --color-3: #eae0d5;
+    --color-4: #c6ac8f;
+    --color-5: #5E503F;
+    --color-6: #272626;
+}
+
+.darkmode-container {
+    background-color: var(--color-6);
+}
+
+.darkmode-menu {
+    background-color: var(--color-5);
+}
+
+.darkmode-text {
+    color: var(--color-3);
+}
+
+.darkmode-shadow {
+    box-shadow: 4.6vh 4.6vh 6.4vh var(--color-1);
+}

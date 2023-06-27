@@ -1,0 +1,277 @@
+:root {
+    /* color */
+    --color-1: #000;
+    --color-2: #22333B;
+    --color-3: #eae0d5;
+    --color-4: #c6ac8f;
+    --color-5: #5E503F;
+    --color-6: #272626;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif
+}
+
+.icons {
+    width: 4vh;
+    margin: 1.48vh;
+    cursor: pointer;
+}
+
+.icons:hover {
+    transform: scale(1.2);
+    transition: .3s ease-out;
+}
+
+.icons:not(:hover) {
+    transition: transform 0.3s ease;
+    transform: scale(1);
+}
+
+body {
+    display: flex;
+
+}
+
+.menu {
+    height: 100vh;
+    width: 5%;
+    background-color: #c6ac8f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu nav,
+.menu ul,
+.menu li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-3);
+
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-jc {
+    justify-content: center;
+}
+
+.hero-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../images/background_home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.title,
+.hero-title {
+    font-size: 8.8vh;
+    margin: 5.5vh 0 5.5vh 5.5vh;
+    color: var(--color-3);
+    width: 40vw;
+}
+
+.hero-text {
+    font-size: 2.9vh;
+    color: var(--color-2);
+    margin: 7vh;
+    font-weight: bold;
+}
+
+.title {
+    color: var(--color-2);
+}
+
+.long-title-size {
+    width: 100vh;
+}
+
+.sub-title {
+    font-size: 2.9vh;
+    margin: 0 5.5vh 5.5vh;
+    color: var(--color-2);
+}
+
+.text {
+    width: 35vw;
+    font-weight: bold;
+    font-size: 1.85vh;
+    margin: 0 5.5vh 3vh;
+    color: var(--color-2);
+}
+
+.image-fome {
+    height: 100vh;
+    width: 50vw;
+    position: absolute;
+    right: 0;
+}
+
+.video {
+    height: 35vh;
+    width: 30vw;
+    margin: 10vh 5.5vh;
+    border: 1vh solid var(--color-4);
+    border-radius: 1vh;
+    box-shadow: 4.6vh 4.6vh 6.4vh var(--color-5);
+}
+
+.wave {
+    height: 100vh;
+    color: var(--color-5);
+    transform: rotate(0deg);
+    filter: blur(1px);
+    position: absolute;
+    right: 0;
+}
+
+.li-margin {
+    margin-left: 5vw;
+}
+
+.ul-margin {
+    margin-top: 3vh;
+}
+
+.input {
+    font-size: 2.5vh;
+    color: var(--color-1);
+    width: 32vw;
+    margin-left: 2.6vw;
+    background: #EAE0D5;
+    border: none;
+    border-radius: 0.46vh;
+    padding: 0.2vh 0.5vw;
+}
+
+.menssage {
+    height: 20vh;
+    width: 30vw;
+}
+
+.margin-form {
+    margin: 0px;
+    margin-left: 2.6vw;
+    margin-bottom: 3.7vh;
+    margin-top: 4.6vh;
+}
+
+.form-container {
+    width: 80vw;
+    background: linear-gradient(180deg, rgba(201, 180, 157, 0.33) 0%, #D3BBA0 99.48%);
+    border: 10px solid rgba(201, 180, 157, 0.62);
+    border-radius: 20px;
+    height: 30vw;
+    margin-left: 2.7vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-l-r {
+    width: 35vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-diviser {
+    border: 2px solid rgba(0, 0, 0, 0.397);
+    height: 36vh;
+    margin-top: 10.64vh;
+    margin-left: 4.27vw;
+    margin-right: 4.27vw;
+}
+
+.send {
+    color: var(--color-2);
+    margin-top: 11.11vh;
+    margin-left: 20.8vw;
+    width: 10vw;
+    height: 5vh;
+    background: #EAE0D5;
+    border-radius: 0.4vh;
+    border: none;
+    font-weight: bold;
+    font-size: 2vh;
+    cursor: pointer;
+
+}
+
+.send:hover {
+
+    box-shadow: 5px 5px 1px var(--color-1);
+    transition: .3s ease-out;
+}
+
+.send:not(:hover) {
+    transition: transform 0.5s ease-in;
+    box-shadow: 1px 1px 0px var(--color-1);
+}
+
+.send:active {
+    box-shadow: 0px 0px 0px var(--color-1);
+    transition: .1s ease-out;
+    background: #dfd5cb;
+}
+
+.date-hour {
+    font-size: 1.2vh;
+    margin: 1vh 0;
+    font-weight: bold;
+    color: var(--color-1);
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 40vh;
+    margin: 0 4vh;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .3s;
+}
+
+.image:hover {
+    transform: translateZ(20px) rotateX(20deg) rotateY(20deg);
+}
+
+.image-center {
+    margin-bottom: 15vh;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.logo-ft {
+    position: absolute;
+    bottom: 0vh;
+    right: 0vw;
+    width: 6vw;
+}

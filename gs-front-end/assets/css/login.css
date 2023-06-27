@@ -1,0 +1,72 @@
+.login-c {
+    width: 40vw;
+    height: 45vh;
+    border: 4px solid var(--color-5);
+    margin-left: 50vw;
+    margin-bottom: 10vh;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.login-text {
+    color: var(--color-1);
+}
+
+#login__username {
+    background-color: rgb(48, 48, 48);
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.493);
+    width: 40%;
+    text-align: center;
+    height: 5vh;
+    font-size: 24px;
+    font-family: "Montserrat";
+    margin-bottom: 50px;
+    color: white;
+}
+
+#login__password {
+    background-color: rgb(48, 48, 48);
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.493);
+    width: 40%;
+    text-align: center;
+    height: 5vh;
+    font-size: 24px;
+    font-family: "Montserrat";
+    margin-bottom: 50px;
+    color: white;
+}
+
+
+.login-button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 8.3vw;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 1.57vh 2.5vw;
+    color: #fff;
+    background-color: var(--color-4);
+    height: 48px;
+    margin-top: 15px;
+}
+
+.login-button:hover {
+    transform: scale(1.1);
+    background-color: #161f24;
+}
