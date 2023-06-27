@@ -1,0 +1,129 @@
+:root {
+    --max-width-: 50%;
+    --margin-default-: 0 0 20px 0;
+    --block-height-: 50%;
+    --default-width: 50%;
+}
+
+.content-txt {
+    width: var(--default-width);
+    margin: var(--margin-default-);
+}
+
+.wine-title {
+    width: var(--default-width);
+    display: block;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.wine-rank {
+    width: var(--default-width);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0 10px;
+
+}
+
+.split {
+    background-color: #000;
+    height: 3px;
+    width: 10px;
+
+}
+
+.wine-img {
+    display: flex;
+    width: var(--max-width-);
+    height: var(--block-height-);
+    justify-content: space-evenly;
+    align-items: center;
+    margin: var(--margin-default-);
+}
+
+.wine-img-main {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wine-img-main img {
+    height: 100%;
+}
+
+.wine-img-block {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.wine-img-block img {
+    height: 50%;
+}
+
+.wine-txt {
+    max-width: 100%;
+    font-size: small;
+    font-weight: 500;
+}
+
+.buy-datasheet {
+    display: flex;
+    width: var(--max-width-);
+    height: 20%;
+    justify-content: space-between;
+}
+
+.datasheet {
+    width: 25%;
+}
+
+.datasheet-img-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: var(--margin-default-);
+
+}
+
+.datasheet-img-block img {
+    width: 33%;
+}
+
+.buy {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.buy-price {
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.buy-link {
+    color: #000;
+    text-decoration: none;
+    background-color: silver;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+
+.buy-link:hover {
+    transition: .2s ease-in;
+    background-color: rgb(168, 168, 168);
+
+}
